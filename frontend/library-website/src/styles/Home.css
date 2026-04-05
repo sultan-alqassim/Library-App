@@ -1,0 +1,29 @@
+.home{
+  font-family: Arial, sans-serif;
+  background-color: #f8f5f2;
+  padding: 40px;
+  text-align: center;
+}
+
+.view-books-button
+{
+  background-color: rgb(0, 0, 193);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+.view-books-button:hover,
+.Books-button:hover {
+  background-color: rgb(0, 0, 82);
+   transform: translateY(-2px);
+   transition: transform 0.3s ease
+}
+
+.no-dots {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
